@@ -4,6 +4,7 @@ import io.restassured.RestAssured;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Manual;
+import net.thucydides.core.annotations.Narrative;
 import net.thucydides.core.annotations.Pending;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
@@ -13,6 +14,9 @@ import org.junit.runner.RunWith;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+@Narrative(text={"In order to view all students",
+        "As a user",
+        "I want to be able to search in the students list"})
 
 @RunWith(SerenityRunner.class)
 public class SampleSerenityTest {

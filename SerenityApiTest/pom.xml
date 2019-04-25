@@ -69,7 +69,7 @@
                 <version>2.22.1</version>
                 <configuration>
                     <includes>
-                        <include>**/serenityrestassured/*.java</include>
+                        <include>**/com.studentapp.model/*.java</include>
                         <include>**/junit/*.java</include>
                     </includes>
                     <reuseForks>true</reuseForks>
